@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.vehiclesection {
+  height: 80vh;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.vehiclesection article {
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px groove;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px gray;
+}
+
+.vehiclediv1a {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.vehiclediv1a h2 {
+  font-size: 35px;
+  /* color: red; */
+  border-right: 1px solid rgb(118, 106, 106);
+  padding-right: 30px;
+  transition: all 0.3;
+}
+.vehiclediv1a h2:hover {
+  color: red;
+}
+.vehiclediv1a h3 {
+  font-size: 35px;
+}
+.vehiclediv1a h3:hover {
+  color: red;
+}
+.vehiclesection h4 {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: gray;
+}
+.vehiclediv2 input {
+  height: 60px;
+  width: 400px;
+  font-size: 35px;
+  border-right: 1px solid rgb(118, 106, 106);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-right: 30px;
+  transition: all 0.3;
+}
+.vehiclediv3 input {
+  height: 60px;
+  width: 250px;
+  font-size: 25px;
+  border-right: 1px solid rgb(118, 106, 106);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 20px;
+  /* padding-right: 30px; */
+}
+.vehiclediv4 input {
+  height: 60px;
+  width: 250px;
+  font-size: 25px;
+  border-right: 1px solid rgb(118, 106, 106);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 20px;
+  /* padding-right: 30px; */
+}
+.vehiclediv5 button {
+  height: 60px;
+  width: 200px;
+  font-size: 23px;
+  border-right: 1px solid rgb(118, 106, 106);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 18px;
+  background-color: rgb(65, 182, 172);
+}

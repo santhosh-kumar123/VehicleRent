@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.sidebarSection{
+    height: 91vh;
+    width: 300px;
+    background-color: rgb(11, 11, 11);
+    position: absolute;
+    margin-top: 0;
+    /* z-index: -1; */
+}
+.sidediv1{
+    height: 80%;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sidediv1 li {
+list-style-type: none;
+margin-top: 50px;
+}
+.sidediv1 li a{
+    color:white;
+    padding: 10px 10px 10px 10px;
+    padding-top: 10px;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+}
+.sidediv1 li a:hover{
+    background-color: rgb(61,169,178);
+    border: 1px solid;
+    border-radius: 5px;
+}

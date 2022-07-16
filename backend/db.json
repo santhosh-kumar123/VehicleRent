@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "name": "MAHINDRA TUV 300",
+      "type": "SUV",
+      "model": "2021",
+      "rent": "10/KM",
+      "photos": "https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/97853/bolero-neo-exterior-right-front-three-quarter-2.jpeg?q=75",
+      "id": 1
+    },
+    {
+      "name": "MAHINDRA THAR",
+      "type": "SUV",
+      "model": "2022",
+      "rent": "12/KM",
+      "photos": "https://d2m3nfprmhqjvd.cloudfront.net/blog/20220316112427/Thar-feature.jpg",
+      "id": 2
+    },
+    {
+      "name": "HYUNDAI VERNA",
+      "type": "SEDAN",
+      "model": "2017",
+      "rent": "11/KM",
+      "photos": "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//Newstaffpics/verna_505_122717035128.jpg",
+      "id": 4
+    },
+    {
+      "name": "TOYOTA INNOVA CRYSTA",
+      "type": "SUV",
+      "model": "2019",
+      "rent": "13/KM",
+      "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsphEpWCieg6ByxCLSFDtwKICd86-PZc8i351mr2Hzpf-S7I_5e4W_lsew-phqA7MGbIU&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "TOYOTA FORTUNER",
+      "type": "SUV",
+      "model": "2020",
+      "rent": "15/KM",
+      "photos": "https://motoroctane.com/wp-content/uploads/2020/06/Toyota-Fortuner-2-e1591014043513.jpg",
+      "id": 6
+    }
+  ]
+}
