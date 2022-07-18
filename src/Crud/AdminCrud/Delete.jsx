@@ -33,8 +33,7 @@ const Delete = () => {
           fontFamily: "sans-serif",
           fontSize: "25px",
           color: "#777",
-          flexFlow:"wrap",
-          
+          flexFlow: "wrap",
         }}
         border={1}
         cellPadding="10px"

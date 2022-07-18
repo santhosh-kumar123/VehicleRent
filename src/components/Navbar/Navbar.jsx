@@ -15,7 +15,7 @@ const Navbar = () => {
             {" "}
             <li>
               <AiOutlineMenu style={{fontSize:"22px"}}/>
-              <Link to="/" style={{marginLeft:"20px"}}> 
+              <Link to="/sidenavbar" style={{marginLeft:"20px"}}> 
                 SAFAR
               </Link>
             </li>

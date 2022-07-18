@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Axios } from "../../Apis/Axios";
+import Styles from "./create.module.css"
 const Create = () => {
   let navigate=useNavigate()
   let [name, setName] = useState("");
@@ -21,56 +22,110 @@ const Create = () => {
     navigate("/Delete")
   };
   return (
-    <form onSubmit={fetchUser}>
-      <div>
-        <label htmlFor="">Car Name :</label>
-        <input
-          type="text"
-          id="idname"
-          value={name}
-          onChange={e => setName(e.target.value)}
-        />
-      </div>
-      <div>
-        <label htmlFor="">Car Type:</label>
-        <input
-          type="text"
-          id="idname"
-          value={type}
-          onChange={e => setType(e.target.value)}
-        />
-      </div>
-      <div>
-        <label htmlFor="">Car Model :</label>
-        <input
-          type="text"
-          id="idname"
-          value={model}
-          onChange={e => setModel(e.target.value)}
-        />
-      </div>
-      <div>
-        <label htmlFor="">Car Rent Price :</label>
-        <input
-          type="text"
-          id="idname"
-          value={rent}
-          onChange={e => setRent(e.target.value)}
-        />
-      </div>
-      <div>
-        <label htmlFor="">Car Photos :</label>
-        <input
-          type="text"
-          id="idname"
-          value={photos}
-          onChange={e => setPhotos(e.target.value)}
-        />
-      </div>
-      <div>
-        <button type="submit">submit</button>
-      </div>
-    </form>
+    <div className={Styles.CreateDiv1}>
+      <form onSubmit={fetchUser}>
+        <div className={Styles.CreateDiv1a}>
+          <table>
+            <caption
+              style={{
+                fontSize: "22px",
+                fontWeight: "bold",
+                fontFamily: "sans-serif",
+              }}
+            >
+              {" "}
+              Add the NEW CAR Details
+            </caption>
+            <tr>
+              {" "}
+              <td>
+                {" "}
+                <label>Car Name :</label>
+              </td>{" "}
+              <td>
+                <input
+                  type="text"
+                  // id="idname"
+                  value={name}
+                  placeholder="add name"
+                  onChange={e => setName(e.target.value)}
+                />
+              </td>
+            </tr>
+            <tr>
+              {" "}
+              <td>
+                {" "}
+                <label>Car Type:</label>
+              </td>{" "}
+              <td>
+                <input
+                  type="text"
+                  // id="idname"
+                  value={type}
+                  placeholder="add type"
+                  onChange={e => setType(e.target.value)}
+                />
+              </td>
+            </tr>
+            <tr>
+              {" "}
+              <td>
+                <label>Car Model :</label>
+              </td>{" "}
+              <td>
+                <input
+                  type="text"
+                  id="idname"
+                  value={model}
+                  placeholder="add model"
+                  onChange={e => setModel(e.target.value)}
+                />
+              </td>
+            </tr>
+            <tr>
+              {" "}
+              <td>
+                {" "}
+                <label>Car Rent Price :</label>
+              </td>{" "}
+              <td>
+                <input
+                  type="text"
+                  id="idname"
+                  value={rent}
+                  placeholder="add rent"
+                  onChange={e => setRent(e.target.value)}
+                />
+              </td>
+            </tr>
+            <tr>
+              {" "}
+              <td>
+                <label>Car Photos :</label>
+              </td>{" "}
+              <td>
+                <input
+                  type="text"
+                  id="idname"
+                  value={photos}
+                  placeholder="add photos"
+                  onChange={e => setPhotos(e.target.value)}
+                />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <div className={Styles.CreateDiv1b}>
+                  <button type="submit">submit</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </div>
   );
 };
 

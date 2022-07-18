@@ -7,6 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Rubik', sans-serif;
+  background: rgb(0,36,29);
+background: linear-gradient(90deg, rgb(231, 241, 239) 0%, rgb(196, 196, 206) 20%, rgb(208, 209, 216) 35%, rgb(184, 187, 198) 76%, rgb(208, 210, 214) 100%);
 }
 
 code {

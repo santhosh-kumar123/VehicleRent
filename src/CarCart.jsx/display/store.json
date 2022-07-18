@@ -1,0 +1,274 @@
+[
+  {
+    "vehicle": "CAR",
+    "name": "MAHINDRA TUV 300",
+    "color": "WHITE",
+    "type": "SUV",
+    "model": "2021",
+    "rent": "10/KM",
+    "photos": "https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/97853/bolero-neo-exterior-right-front-three-quarter-2.jpeg?q=75",
+    "id": 1
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MAHINDRA THAR",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://d2m3nfprmhqjvd.cloudfront.net/blog/20220316112427/Thar-feature.jpg",
+    "id": 2
+  },
+  {
+    "vehicle": "CAR",
+    "name": "HYUNDAI VERNA",
+    "color": "WHITE",
+    "type": "SEDAN",
+    "model": "2017",
+    "rent": "11/KM",
+    "photos": "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories//Newstaffpics/verna_505_122717035128.jpg",
+    "id": 3
+  },
+  {
+    "vehicle": "CAR",
+    "name": "TOYOTA INNOVA CRYSTA",
+    "color": "WHITE",
+    "type": "SUV",
+    "model": "2019",
+    "rent": "13/KM",
+    "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsphEpWCieg6ByxCLSFDtwKICd86-PZc8i351mr2Hzpf-S7I_5e4W_lsew-phqA7MGbIU&usqp=CAU",
+    "id": 4
+  },
+  {
+    "vehicle": "CAR",
+    "name": "TOYOTA FORTUNER",
+    "color": "WHITE",
+    "type": "SUV",
+    "model": "2020",
+    "rent": "15/KM",
+    "photos": "https://motoroctane.com/wp-content/uploads/2020/06/Toyota-Fortuner-2-e1591014043513.jpg",
+    "id": 5
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MAHINDRA TUV 300",
+    "color": "WHITE",
+    "type": "SUV",
+    "model": "2021",
+    "rent": "10/KM",
+    "photos": "https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/97853/bolero-neo-exterior-right-front-three-quarter-2.jpeg?q=75",
+    "id": 6
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MAHINDRA SCORPION",
+    "color": "WHITE",
+    "type": "SUV",
+    "model": "2019",
+    "rent": "12/KM",
+    "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVKEJDPBUeWXsJpmQ2aNoTJfYRgy5ihZPXw&usqp=CAU",
+    "id": 7
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MARUTHI 800",
+    "color": "BLUE",
+    "type": "SEDAN",
+    "model": "2017",
+    "rent": "11/KM",
+    "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TZ84xpjkhTpaqN1yv8mzszcE6fp7JZPh3w&usqp=CAU",
+    "id": 8
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MARUTHI 800",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2019",
+    "rent": "10/KM",
+    "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu3OaJMZU1owkeM-kZGlfCbSfX9pZqdcF6tQ&usqp=CAU",
+    "id": 9
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MARUTHI 800",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2021",
+    "rent": "15/KM",
+    "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6vOdq2FR7rU-Fqpproye9NWvsEruSDKk4VA&usqp=CAU",
+    "id": 10
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MAHINDRA TUV 300",
+    "color": "WHITE",
+    "type": "SUV",
+    "model": "2021",
+    "rent": "10/KM",
+    "photos": "https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/97853/bolero-neo-exterior-right-front-three-quarter-2.jpeg?q=75",
+    "id": 11
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MAHINDRA SCORPION",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDElcV1JpNWxp-pwQQozl5kdeNFi_TUN9HyskegZh-fwi1PW9oQYVp8dlNmhAX6F6RVSA&usqp=CAU",
+    "id": 12
+  },
+  {
+    "vehicle": "CAR",
+    "name": "MOUNTAIN RESORT",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse1.mm.bing.net/th?id=OIP.kTuunh9EGdHgjPlfu6zvlQHaFn&pid=Api&P=0&w=207&h=157",
+    "id": 13
+  },
+  {
+    "vehicle": "CAR",
+    "name": "Royal Enfield",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse4.mm.bing.net/th?id=OIP.UQo-9tr4T5TkgpBA1yDedQHaEj&pid=Api&P=0&w=262&h=161",
+    "id": 14
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "Discovry",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "10/KM",
+    "photos": "https://images.thrillophilia.com/image/upload/s--YX7a-CaN--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/092/538/original/1467008753_fzsfiv2-m8-560x420_560x420.jpg.jpg?1467008753",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 15
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "RIDER",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse4.mm.bing.net/th?id=OIP.IMPkhQbsOhNPC7d7Qi5u4wHaE7&pid=Api&P=0&w=244&h=162",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 16
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "Activa",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse4.mm.bing.net/th?id=OIP.oGBKKkyTGt1F14_JKY19PQHaE8&pid=Api&P=0&w=259&h=172",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 17
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "Active Honda",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse4.mm.bing.net/th?id=OIP.SZyqFJukaE_SSjLnfhv6GgHaD4&pid=Api&P=0&w=312&h=164",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 18
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "KAWSAKI",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse1.mm.bing.net/th?id=OIP.XGo6q9OyjWGXrRW__EIi5AHaEj&pid=Api&P=0&w=264&h=162",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 19
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "SCOOTY",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse4.mm.bing.net/th?id=OIP.z_ZH4ah9Z3o6dcpbZvUGrQHaE8&pid=Api&P=0&w=265&h=176",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 20
+  },
+  {
+    "vehicle": "BIKE",
+    "name": "type",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://tse2.mm.bing.net/th?id=OIP.F4jNN5R5O9R7Qi5f9fP8UwHaHa&pid=Api&P=0&w=171&h=171",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 21
+  },
+  {
+    "vehicle": "FLIGHT",
+    "name": "type",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://english.cdn.zeenews.com/sites/default/files/2022/06/28/1058779-2022-maruti-suzuki-vitara-brezza-rendering.jpg",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 22
+  },
+  {
+    "vehicle": "FLIGHT",
+    "name": "type",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://english.cdn.zeenews.com/sites/default/files/2022/06/28/1058779-2022-maruti-suzuki-vitara-brezza-rendering.jpg",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 23
+  },
+  {
+    "vehicle": "FLIGHT",
+    "name": "type",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://english.cdn.zeenews.com/sites/default/files/2022/06/28/1058779-2022-maruti-suzuki-vitara-brezza-rendering.jpg",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 24
+  },
+  {
+    "vehicle": "FLIGHT",
+    "name": "type",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://english.cdn.zeenews.com/sites/default/files/2022/06/28/1058779-2022-maruti-suzuki-vitara-brezza-rendering.jpg",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 25
+  },
+  {
+    "vehicle": "FLIGHT",
+    "name": "type",
+    "color": "RED",
+    "type": "SUV",
+    "model": "2022",
+    "rent": "12/KM",
+    "photos": "https://english.cdn.zeenews.com/sites/default/files/2022/06/28/1058779-2022-maruti-suzuki-vitara-brezza-rendering.jpg",
+    "video": "https://www.youtube.com/embed/AWWAeSG1FhA ",
+    "id": 26
+  }
+]

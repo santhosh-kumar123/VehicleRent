@@ -1,49 +1,48 @@
 import React, { useState } from "react";
 import Styles from "./myprofile.module.css";
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 import { Auth } from "firebase/auth";
+import {auth} from "../../../Apis/firebase/Firbase"
 import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
-import {auth} from "../../../Apis/firebase/Firbase"
-const MyProfile = () => {
-  let [name, setName] = useState("")
-    let [email, setEmail] = useState("");
+import { async } from "@firebase/util";
+const RegisterForm = () => {
+  let [name, setName] = useState("");
+  let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
   let [confirmPassword, setConfirmPassword] = useState("");
   let navigate = useNavigate();
-  let handleClick = async(e) => {
-    e.preventDefault()
+  let handleClick = async e => {
+    e.preventDefault();
     try {
       if (password !== confirmPassword) {
-        toast("password is not matched")
-      }
-      else {
-        await signInWithEmailAndPassword(auth, email, password)
-        toast("successfully user sign up")
-        navigate("/register");
+        toast("password is not matched");
+      } else {
+        await createUserWithEmailAndPassword(auth,email, password);
+        toast("successfully user sign up");
       }
     } catch (error) {
       console.log(error);
     }
-    // setName("")
-    // setEmail("")
-    // setPassword("");
-    // setConfirmPassword("")
-    
-  }
+    setName("");
+    setEmail("");
+    setPassword("");
+    setConfirmPassword("");
+    navigate("/");
+  };
   return (
     <section className={Styles.MyProfilesection}>
       <article className={Styles.MyProfilearticle}>
         <div className={Styles.signupFrm}>
           <form action="" className={Styles.form}>
-            <h1 className={Styles.title}>Sign up</h1>
+            <h1 className={Styles.title}>Register Form</h1>
 
             <div className={Styles.inputContainer}>
               <input
-              name="name"
+                name="name"
                 type="text"
                 className={Styles.input}
-                placeholder="username"
+                placeholder="a"
                 value={name}
                 onChange={e => {
                   setName(e.target.value);
@@ -59,7 +58,7 @@ const MyProfile = () => {
                 name="name"
                 type="email"
                 className={Styles.input}
-                placeholder="email"
+                placeholder="a"
                 value={email}
                 onChange={e => {
                   setEmail(e.target.value);
@@ -72,7 +71,7 @@ const MyProfile = () => {
 
             <div className={Styles.inputContainer}>
               <input
-              name="name"
+                name="name"
                 type="text"
                 className={Styles.input}
                 placeholder="password"
@@ -88,10 +87,10 @@ const MyProfile = () => {
 
             <div className={Styles.inputContainer}>
               <input
-              name="name"
+                name="name"
                 type="text"
                 className={Styles.input}
-                placeholder="confirmPassword"
+                placeholder="a"
                 value={confirmPassword}
                 onChange={e => {
                   setConfirmPassword(e.target.value);
@@ -102,12 +101,12 @@ const MyProfile = () => {
               </label>
             </div>
 
-            <input
+            <button
               type="submit"
               onClick={handleClick}
               className={Styles.submitBtn}
-              value="Sign up"
-            />
+              value="RegisterForm"
+            >submit</button>
             <ToastContainer />
           </form>
         </div>
@@ -115,4 +114,4 @@ const MyProfile = () => {
     </section>
   );
 };
-export default MyProfile;
+export default RegisterForm;

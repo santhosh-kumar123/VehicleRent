@@ -18,7 +18,7 @@
   );
   /* opacity: 1; */
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .signupFrm {
   display: flex;
@@ -60,12 +60,6 @@
   
 }
 @keyframes popup {
-  from {width: 400px;
-  }
-  to{
-    width: 600px;
-  }
-}@keyframes popup {
   0%   {width:425px}
   25%  {width: 450px;}
   50%  {width: 475px;}
@@ -99,13 +93,13 @@
   padding: 0 20px;
   outline: none;
   background: none;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 ::placeholder {
   color: transparent;
 }
-label {
+.input label {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -114,7 +108,7 @@ label {
   color: #dadce0;
   font-size: 16px;
   transition: 0.5s;
-  z-index: 0;
+  /* z-index: 0; */
 }
 .input:not(:placeholder-shown) + .label {
   top: -7px;

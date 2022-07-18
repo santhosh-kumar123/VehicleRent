@@ -1,6 +1,6 @@
 import React from "react";
 // import { useContext } from "react";
-import { useStateValue } from "../Apis/reducer/StateContext";
+import { useStateValue } from "../../Apis/reducer/StateContext";
 import Styles from "./display.module.css";
 const DisplayVehicle = ({ id, name, photos, rent }) => {
   //   const [{ basket }, dispatch] = useContext(StateContext);
@@ -17,7 +17,7 @@ const DisplayVehicle = ({ id, name, photos, rent }) => {
     });
   };
   return (
-    <div>
+    <div className={Styles.displayVehiclediv1}>
       <ul key={id}>
         <li>
           <h2
@@ -31,17 +31,22 @@ const DisplayVehicle = ({ id, name, photos, rent }) => {
         </li>
         <li>
           <img
-            style={{ height: "300px", width: "300px" }}
+            style={{ height: "270px", width: "270px",border:"none" }}
             src={photos}
             alt=""
           />
         </li>
         <li>
-          <h3>{rent}</h3>
+          <h3 style={{ float: "left", marginTop: "10px" }}>₹{rent}</h3>
         </li>
         <li>
           {" "}
-          <button onClick={addToBasket}>Add to Basket</button>
+          <button
+            style={{ float: "right", marginTop: "0px" }}
+            onClick={addToBasket}
+          >
+            Select Vehicle
+          </button>
         </li>
       </ul>
     </div>
